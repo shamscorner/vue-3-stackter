@@ -30,7 +30,8 @@ import { useStore } from 'vuex'
 const store = useStore()
 
 // name
-const name = computed(() => store.state.user.name)
+// const name = computed(() => store.state.user.name)
+const name = computed(() => store.getters['user/nameUppercased'])
 const newName = ref('')
 function saveName() {
     if (newName.value === '') {
