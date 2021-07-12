@@ -15,13 +15,17 @@
 </template>
 
 <script setup>
-import VButton from '../components/VButton.vue'
-
+import { useMeta } from 'vue-meta'
 import { computed } from 'vue'
+import { useStore } from 'vuex'
 
 import DefaultLayout from '../layouts/DefaultLayout.vue'
+import VButton from '../components/VButton.vue'
 
-import { useStore } from 'vuex'
+useMeta({
+    title: 'About Page',
+})
+
 const store = useStore()
 
 // name

@@ -19,14 +19,20 @@
 </template>
 
 <script setup>
+import { useMeta } from 'vue-meta'
+import { computed, ref } from 'vue'
+import { useRouter } from 'vue-router'
+import { useStore } from 'vuex'
+
 import DefaultLayout from '../layouts/DefaultLayout.vue'
 import VButton from '../components/VButton.vue'
 
-import { computed, ref } from 'vue'
-import { useRouter } from 'vue-router'
+useMeta({
+    title: 'Homepage',
+})
+
 const router = useRouter()
 
-import { useStore } from 'vuex'
 const store = useStore()
 
 // name
