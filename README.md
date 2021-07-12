@@ -1,6 +1,6 @@
 # vue-3-stackter
 
-![Cover Image](https://github.com/shamscorner/images/blob/master/vite-vue-3.png)
+![Cover Image](https://github.com/shamscorner/images/blob/master/vite-vue-3-tailwind.png)
 
 A Vue3 starter project setup with
 
@@ -10,6 +10,7 @@ A Vue3 starter project setup with
 -   Vuex
 -   Eslint
 -   Prettier
+-   Tailwind CSS
 -   and some custom preferences.
 
 ### Run this project:
