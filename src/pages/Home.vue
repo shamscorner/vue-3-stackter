@@ -24,7 +24,7 @@ import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useStore } from 'vuex'
 
-import DefaultLayout from '../layouts/DefaultLayout.vue'
+import DefaultLayout from '../layouts/Default.vue'
 import VButton from '../components/VButton.vue'
 
 useMeta({
