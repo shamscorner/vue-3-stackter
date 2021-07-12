@@ -36,7 +36,7 @@ function saveName() {
     if (newName.value === '') {
         return
     }
-    store.dispatch('saveName', newName.value)
+    store.dispatch('user/saveName', newName.value)
     newName.value = ''
     router.push('/about')
 }
