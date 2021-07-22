@@ -1,19 +1,16 @@
 <template>
-    <metainfo>
-        <template v-slot:title="{ content }">
-            {{ content ? `${content} | ${siteName}` : siteName }}
-        </template>
-    </metainfo>
-    <router-view />
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
 </template>
 
-<script setup>
-import { useMeta } from 'vue-meta'
+<script lang="ts">
+import { defineComponent } from "vue";
+import HelloWorld from "./components/HelloWorld.vue";
 
-const siteName = 'Vite App'
-
-useMeta({
-    title: '',
-    htmlAttrs: { lang: 'en', amp: true },
-})
+export default defineComponent({
+  name: "App",
+  components: {
+    HelloWorld,
+  },
+});
 </script>
