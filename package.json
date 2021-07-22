@@ -7,6 +7,9 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.14.0",
+    "prettier": "^2.3.2",
     "vue": "^3.0.5"
   },
   "devDependencies": {
