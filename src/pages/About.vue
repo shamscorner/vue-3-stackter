@@ -1,6 +1,6 @@
 <template>
     <default-layout>
-        <h1 class="text-2xl font-bold">About</h1>
+        <h1 class="text-2xl font-bold">About {{ name }}</h1>
 
         <p class="my-8">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
@@ -15,7 +15,10 @@
 </template>
 
 <script lang="ts" setup>
+import { computed } from 'vue'
 import { useMeta } from 'vue-meta'
+import { useStore } from 'vuex'
+import { UserGetterTypes } from '../store/modules/user/getter-types'
 
 import DefaultLayout from '../layouts/Default.vue'
 import VButton from '../components/VButton.vue'
@@ -23,4 +26,10 @@ import VButton from '../components/VButton.vue'
 useMeta({
     title: 'About Page',
 })
+
+const store = useStore()
+
+const name = computed(
+    () => store.getters[`user/${UserGetterTypes.GET_NAME_AS_UPPERCASED}`]
+)
 </script>

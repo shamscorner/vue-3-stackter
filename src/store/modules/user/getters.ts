@@ -4,10 +4,12 @@ import { RootState } from '../../../store';
 
 import { State } from './state';
 
+import { UserGetterTypes } from './getter-types'
+
 export type Getters = {
-  getNameAsUppercased(state: State): String | undefined;
+  [UserGetterTypes.GET_NAME_AS_UPPERCASED](state: State): String | undefined;
 }
 
 export const getters: GetterTree<State, RootState> & Getters = {
-  getNameAsUppercased: (state) => state.user?.name.toUpperCase(),
+  [UserGetterTypes.GET_NAME_AS_UPPERCASED]: (state) => state.user?.name.toUpperCase(),
 };

@@ -1,6 +1,8 @@
 <template>
     <default-layout>
-        <h1 class="text-2xl font-bold">Welcome to Vue3Stackter, {{ name }}</h1>
+        <h1 class="text-2xl font-bold">
+            Welcome to Vue3StackterTS, {{ name }}!
+        </h1>
     </default-layout>
 </template>
 
@@ -8,6 +10,7 @@
 import { computed, ref } from 'vue'
 import { useMeta } from 'vue-meta'
 import { useStore } from 'vuex'
+import { UserGetterTypes } from '../store/modules/user/getter-types'
 
 import DefaultLayout from '../layouts/Default.vue'
 
@@ -17,5 +20,7 @@ useMeta({
 
 const store = useStore()
 
-const name = computed(() => store.getters['user/getNameAsUppercased'])
+const name = computed(
+    () => store.getters[`user/${UserGetterTypes.GET_NAME_AS_UPPERCASED}`]
+)
 </script>
