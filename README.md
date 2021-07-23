@@ -13,6 +13,8 @@ A Vue3 starter project setup with
 -   Tailwind CSS
 -   and some custom preferences.
 
+[Checkout TypeScript version here](https://github.com/shamscorner/vue-3-stackter/tree/vue-3-with-typescript)
+
 ### Run this project:
 
 ```
