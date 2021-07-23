@@ -30,6 +30,7 @@ useMeta({
 const store = useStore()
 
 const name = computed(
-    () => store.getters[`user/${UserGetterTypes.GET_NAME_AS_UPPERCASED}`]
+    (): string =>
+        store.getters[`user/${UserGetterTypes.GET_NAME_AS_UPPERCASED}`]
 )
 </script>
