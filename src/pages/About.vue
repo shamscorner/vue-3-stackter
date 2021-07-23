@@ -16,4 +16,5 @@
 
 <script lang="ts" setup>
 import DefaultLayout from '../layouts/Default.vue'
+import VButton from '../components/VButton.vue'
 </script>
