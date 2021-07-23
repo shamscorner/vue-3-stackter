@@ -1,6 +1,6 @@
 # vue-3-stackter
 
-![Cover Image](https://github.com/shamscorner/images/blob/master/vite-vue-3-tailwind.png)
+![Cover Image](https://github.com/shamscorner/images/blob/master/vue-3-stackter-ts.jpg)
 
 A Vue3 starter project setup with
 
