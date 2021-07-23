@@ -15,6 +15,12 @@
 </template>
 
 <script lang="ts" setup>
+import { useMeta } from 'vue-meta'
+
 import DefaultLayout from '../layouts/Default.vue'
 import VButton from '../components/VButton.vue'
+
+useMeta({
+    title: 'About Page',
+})
 </script>

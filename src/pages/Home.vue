@@ -5,5 +5,11 @@
 </template>
 
 <script lang="ts" setup>
+import { useMeta } from 'vue-meta'
+
 import DefaultLayout from '../layouts/Default.vue'
+
+useMeta({
+    title: 'Home Page',
+})
 </script>
