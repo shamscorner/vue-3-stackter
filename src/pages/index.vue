@@ -1,21 +1,19 @@
 <template>
-    <default-layout>
-        <h1 class="text-2xl font-bold">Welcome to Vue3Stackter, {{ name }}</h1>
+    <h1 class="text-2xl font-bold">Welcome to Vue3Stackter, {{ name }}</h1>
 
-        <div class="mt-8">
-            <input
-                v-model="newName"
-                type="text"
-                class="p-2 border border-gray-300 rounded focus:ring-2"
-            />
-            <v-button
-                :class="{ 'pointer-events-none opacity-40': !newName }"
-                @click.native="saveName"
-            >
-                Save
-            </v-button>
-        </div>
-    </default-layout>
+    <div class="mt-8">
+        <input
+            v-model="newName"
+            type="text"
+            class="p-2 border border-gray-300 rounded focus:ring-2"
+        />
+        <v-button
+            :class="{ 'pointer-events-none opacity-40': !newName }"
+            @click.native="saveName"
+        >
+            Save
+        </v-button>
+    </div>
 </template>
 
 <script setup>
@@ -24,7 +22,6 @@ import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useStore } from 'vuex'
 
-import DefaultLayout from '../layouts/Default.vue'
 import VButton from '../components/VButton.vue'
 
 useMeta({

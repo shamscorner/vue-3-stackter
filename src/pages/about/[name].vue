@@ -1,5 +1,5 @@
 <template>
-    <default-layout>
+    <div>
         <h1 class="text-2xl font-bold">About {{ name }}</h1>
 
         <p class="my-8">
@@ -11,7 +11,7 @@
         <router-link to="/">
             <v-button>Back to home</v-button>
         </router-link>
-    </default-layout>
+    </div>
 </template>
 
 <script setup>
@@ -19,7 +19,6 @@ import { useMeta } from 'vue-meta'
 import { computed } from 'vue'
 import { useStore } from 'vuex'
 
-import DefaultLayout from '../../layouts/Default.vue'
 import VButton from '../../components/VButton.vue'
 
 useMeta({
