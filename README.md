@@ -1,6 +1,6 @@
 # vue-3-stackter
 
-![Cover Image](https://raw.githubusercontent.com/shamscorner/images/main/vite-vue-3-tailwind.png)
+![Cover Image](https://raw.githubusercontent.com/shamscorner/images/main/vue-3-stackter-ts.jpg)
 
 A Vue3 starter project setup with [Typescript](https://www.typescriptlang.org/) and these following components,
 
