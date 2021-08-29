@@ -19,8 +19,8 @@ import { useMeta } from 'vue-meta'
 import { computed } from 'vue'
 import { useStore } from 'vuex'
 
-import DefaultLayout from '../layouts/Default.vue'
-import VButton from '../components/VButton.vue'
+import DefaultLayout from '../../layouts/Default.vue'
+import VButton from '../../components/VButton.vue'
 
 useMeta({
     title: 'About Page',
