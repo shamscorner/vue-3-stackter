@@ -28,7 +28,7 @@ import { useStore } from 'vuex'
 import { UserGetterTypes } from '../store/modules/user/getter-types'
 import { UserActionTypes } from '../store/modules/user/action-types'
 
-import DefaultLayout from '../layouts/Default.vue'
+import DefaultLayout from '~/layouts/Default.vue'
 import VButton from '../components/VButton.vue'
 
 useMeta({
