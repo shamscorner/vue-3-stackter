@@ -1,8 +1,8 @@
 # vue-3-stackter
 
-![Cover Image](https://github.com/shamscorner/images/blob/main/vite-vue-3-tailwind.png)
+![Cover Image](https://raw.githubusercontent.com/shamscorner/images/main/vite-vue-3-tailwind.png)
 
-A Vue3 starter project setup with TypeScript and,
+A Vue3 starter project setup with these following components,
 
 -   Vite
 -   vue-meta-3.0.0-alpha.8
@@ -11,9 +11,13 @@ A Vue3 starter project setup with TypeScript and,
 -   Eslint
 -   Prettier
 -   Tailwind CSS
--   and some custom preferences.
+-   File based routing with [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages). (Like [Nuxt file system routing](https://nuxtjs.org/docs/2.x/features/file-system-routing))
+-   Layout system with [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts). (Like [Nuxt layouts](https://nuxtjs.org/docs/2.x/directory-structure/layouts))
+-   Components auto importing with [vite-plugin-components](https://github.com/antfu/vite-plugin-components)
+-   `~/` alias for `/src`. So we don't have to write something like `../../../SomeModule` to import modules.
+-   and some custom setups.
 
-[Check out Javascript version here](https://github.com/shamscorner/vue-3-stackter)
+[Check out Typescript version here](https://github.com/shamscorner/vue-3-stackter/tree/vue-3-with-typescript)
 
 ### Run this project:
 
@@ -32,11 +36,11 @@ const siteName = 'Vite App' // add your site name here
 
 ### Layouts
 
-You can add layouts in your project if you want. You will find a `default.vue` layout example in this project.
+You can add layouts in your project if you want. You will find `default.vue` and `404.vue` layout examples in this project. For more details, check out [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts). (Like [Nuxt layouts](https://nuxtjs.org/docs/2.x/directory-structure/layouts) system).
 
 ### Pages
 
-You can add pages to your project. You will find two example pages in the `pages` directory (`Home.vue` and `About.vue`). **Do not forget to register the pages in the `router`**. You will also find a `router/index.ts` file to register your pages.
+You can add pages to your project. You will find some example pages in the `pages` directory (`index.vue`, `about/[name].vue`, and `[...all].vue`). For more details, check out [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages). (Like [Nuxt file system routing](https://nuxtjs.org/docs/2.x/features/file-system-routing)).
 
 ### Meta info
 
