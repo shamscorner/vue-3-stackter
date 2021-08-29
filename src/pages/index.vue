@@ -24,8 +24,6 @@ import { useStore } from 'vuex'
 import { UserGetterTypes } from '../store/modules/user/getter-types'
 import { UserActionTypes } from '../store/modules/user/action-types'
 
-import VButton from '../components/VButton.vue'
-
 useMeta({
     title: 'Home Page',
 })

@@ -20,8 +20,6 @@ import { useMeta } from 'vue-meta'
 import { useStore } from 'vuex'
 import { UserGetterTypes } from '../../store/modules/user/getter-types'
 
-import VButton from '../../components/VButton.vue'
-
 useMeta({
     title: 'About Page',
 })
