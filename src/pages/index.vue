@@ -51,6 +51,6 @@ function saveName() {
     }
     store.dispatch(`user/${UserActionTypes.SAVE_NAME}`, newName.value)
     newName.value = ''
-    router.push('/about')
+    router.push(`/about/${name.value}`)
 }
 </script>

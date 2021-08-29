@@ -1,9 +1,15 @@
 import { createApp } from 'vue'
 import { createMetaManager } from 'vue-meta'
+import { createRouter, createWebHistory } from 'vue-router'
+import routes from 'virtual:generated-pages'
 import App from './App.vue'
-import router from './router'
 import { store } from './store'
 import './index.css'
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes,
+}) 
 
 const app = createApp(App)
 	.use(router)

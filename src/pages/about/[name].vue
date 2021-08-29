@@ -18,10 +18,10 @@
 import { computed } from 'vue'
 import { useMeta } from 'vue-meta'
 import { useStore } from 'vuex'
-import { UserGetterTypes } from '../store/modules/user/getter-types'
+import { UserGetterTypes } from '../../store/modules/user/getter-types'
 
-import DefaultLayout from '../layouts/Default.vue'
-import VButton from '../components/VButton.vue'
+import DefaultLayout from '../../layouts/Default.vue'
+import VButton from '../../components/VButton.vue'
 
 useMeta({
     title: 'About Page',
