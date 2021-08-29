@@ -21,6 +21,7 @@
         "postcss": "^8.3.5",
         "tailwindcss": "^2.2.4",
         "vite": "^2.4.0",
+        "vite-plugin-components": "^0.13.2",
         "vite-plugin-pages": "^0.17.5",
         "vite-plugin-vue-layouts": "^0.3.1"
     }

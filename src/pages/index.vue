@@ -22,8 +22,6 @@ import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useStore } from 'vuex'
 
-import VButton from '../components/VButton.vue'
-
 useMeta({
     title: 'Homepage',
 })
