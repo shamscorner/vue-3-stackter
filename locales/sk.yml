@@ -1,0 +1,72 @@
+nav:
+  top-info: Top text v slovenčine
+  top-create: Vytvoriť účet
+  top-sign: Prihlásiť sa
+  item1: Ceny
+  item2: Projekty
+  item3: Štúdio
+hero:
+  title: Digitálne riešenia pre malé firmy a živnostníkov
+  subtitle: Pomáhame klientom od definovania stratégie až po kompletnú realizáciu digitálneho ekosystému.
+  button: Poďme tvoriť budúcnosť
+  design: Grafika
+  program: Programovanie
+  infra: Infraštruktúra
+features:
+  headline: Vstúpte s nami do online sveta.
+  content: Spájame značky so spotrebiteľmi. Vzťah, ak je vytvorený dobre, môže pretrvávať po celý život. Zameriavame sa na to, aby bol tento vzťah jednoduchý, prirodzený a zapamätateľný.
+feature:
+  name1: Programovanie
+  description1: Webstránka je miesto, kde sa najčastejšie stretávate s potenciálnymi zákazníkmi. Je to najdostupnejší a najekonomickejší marketingový nástroj. Zastrešíme ju ako celok. Od analýzy, cez grafický návrh a implementáciu, až po správu a dlhodobý rozvoj.
+  blockquote1: Obchodná prezentácia má predávať produkty a prezentovať služby, informačná má priniesť komplexné informácie na jednom mieste a v atraktívnej forme.
+  author1: Romana, Digital Marketing Manager
+  button1: Viac info
+  name2: Infraštruktúra
+  description2: Kvalitný biznis sa dá vybudovať len na dobrých základoch. Poskytneme Vám kvalitný hosting webstránky v našom vysoko dostupnom virtuálnom dátovom centre s kompletnou starostlivosťou pre spoľahlivú prevádzku. Navrhneme a zrealizujeme optimálnu infraštruktúru pre malé aj veľké projekty.
+  blockquote2: Nestačí mať iba dizajnovo krásnu a funkčnú webstránku, nemenej dôležitá je stabilita, dostupnosť a rýchlosť.
+  author2: Roman, Head of Operation
+  button2: Viac info
+projects:
+  headline: Vybrané projekty
+  more: Zobraziť viac projektov
+  project1: Je dávno známe, že ak je zrozumiteľný obsah stránky, na ktorej rozloženie sa čitateľ díva, jeho pozornosť je rozptýlená.
+  project2: Je dávno známe, že ak je zrozumiteľný obsah stránky, na ktorej rozloženie sa čitateľ díva, jeho pozornosť je rozptýlená.
+  project3: Je dávno známe, že ak je zrozumiteľný obsah stránky, na ktorej rozloženie sa čitateľ díva, jeho pozornosť je rozptýlená.
+  project4: Je dávno známe, že ak je zrozumiteľný obsah stránky, na ktorej rozloženie sa čitateľ díva, jeho pozornosť je rozptýlená.
+full-image:
+  title: Dlhodobé myslenie
+  content: Zaviazali sme sa k zodpovednej, udržateľnej a etickej výrobe. Náš prístup v malom rozsahu nám umožňuje zamerať sa na kvalitu a znížiť náš vplyv. Robíme všetko pre to, aby sme oddialili nevyhnutnú tepelnú smrť vesmíru.
+  more: Prečítajte si náš príbeh
+
+studio:
+  title:  Štúdio
+  subtitle: Je dávno známe, že ak je zrozumiteľný obsah stránky, na ktorej rozloženie sa čitateľ díva, jeho pozornosť je rozptýlená.
+
+referencies:
+  title:  Referencie
+  subtitle: Je dávno známe, že ak je zrozumiteľný obsah stránky, na ktorej rozloženie sa čitateľ díva, jeho pozornosť je rozptýlená.
+
+404:
+  head: 404 chyba
+  title: Stránka nenájdená.
+  subtitle: Prepáčte, nemôžeme nájsť stránku, ktorú hľadáte.
+footer-newsletter:
+  headline: Prihláste sa na odber nášho newslettra
+  content: Najnovšie správy, články a zdroje odosielané každý týždeň do vašej doručenej pošty.
+  button: Prihlásiť sa
+footer-banner:
+  headline: Získajte prednostný prístup
+  content: Prihlásili ste sa k odberu noviniek? Ak je to tak, použite na získanie prístupu kľúčové slovo, ktoré sme vám poslali. 
+  button: Poďme na to
+footer: 
+  copyright: 2021 RM Labs. Všetky práva vyhradené.
+
+intro:
+  desc: Opinionated Vite Starter Template
+  dynamic-route: Demo of dynamic route
+  hi: Hi, {name}!
+  aka: Also known as
+  whats-your-name: What's your name?
+
+button:
+  go: GO

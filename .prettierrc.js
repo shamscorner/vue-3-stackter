@@ -1,11 +1,9 @@
-module.exports = {
-  semi: false,
-  tabWidth: 4,
-  useTabs: false,
-  printWidth: 80,
-  endOfLine: "auto",
-  singleQuote: true,
-  trailingComma: "es5",
-  bracketSpacing: true,
-  arrowParens: "always",
-};
+export const semi = false;
+export const tabWidth = 4;
+export const useTabs = false;
+export const printWidth = 80;
+export const endOfLine = "auto";
+export const singleQuote = true;
+export const trailingComma = "es5";
+export const bracketSpacing = true;
+export const arrowParens = "always";

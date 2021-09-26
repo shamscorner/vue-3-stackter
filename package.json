@@ -1,28 +1,32 @@
 {
     "version": "0.0.0",
     "scripts": {
-        "dev": "vite",
+        "dev": "vite --port 3333 --open",
         "build": "vite build",
         "serve": "vite preview"
     },
     "dependencies": {
+        "@headlessui/vue": "^1.4.1",
+        "@heroicons/vue": "^1.0.4",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-vue": "^7.13.0",
         "prettier": "^2.3.2",
-        "vue": "^3.0.5",
+        "@vueuse/core": "^6.5.3",
+        "vue": "^3.2.18",
+        "vue-i18n": "^9.2.0-beta.6",
         "vue-meta": "^3.0.0-alpha.8",
-        "vue-router": "4",
+        "vue-router": "4.0.11",
         "vuex": "^4.0.2"
     },
     "devDependencies": {
-        "@vitejs/plugin-vue": "^1.2.4",
-        "@vue/compiler-sfc": "^3.0.5",
-        "autoprefixer": "^10.3.0",
-        "postcss": "^8.3.5",
-        "tailwindcss": "^2.2.4",
-        "vite": "^2.4.0",
-        "vite-plugin-components": "^0.13.2",
-        "vite-plugin-pages": "^0.17.5",
-        "vite-plugin-vue-layouts": "^0.3.1"
+        "@intlify/vite-plugin-vue-i18n": "^2.4.0",
+        "@vitejs/plugin-vue": "^1.9.2",
+        "@vue/compiler-sfc": "^3.2.18",
+        "unplugin-vue-components": "^0.15.3",
+        "vite": "^2.5.10",
+        "vite-plugin-pages": "^0.18.1",
+        "vite-plugin-vue-layouts": "^0.5.0",
+        "vite-plugin-windicss": "^1.4.7",
+        "windicss": "^3.1.7"
     }
 }

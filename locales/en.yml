@@ -1,0 +1,72 @@
+nav:
+  top-info: Top text in English
+  top-create: Create an account
+  top-sign: Sign in
+  item1: Prices
+  item2: Projects
+  item3: Studio
+hero:
+  title: Digital solutions for small business
+  subtitle: We help clients from defining the strategy to the complete implementation of their digital ecosystem.
+  button: Let's create the future
+  design: Graphics
+  program: Programming
+  infra: Infrastructure
+features:
+  headline: Join the online world with us.
+  content: We connect brands with consumers. A relationship, if well established, can last a lifetime. We focus on making this relationship simple, natural and memorable.
+feature:
+  name1: Programming
+  description1: Webstránka je miesto, kde sa najčastejšie stretávate s potenciálnymi zákazníkmi. Je to najdostupnejší a najekonomickejší marketingový nástroj. Zastrešíme ju ako celok. Od analýzy, cez grafický návrh a implementáciu, až po správu a dlhodobý rozvoj.
+  blockquote1: Obchodná prezentácia má predávať produkty a prezentovať služby, informačná má priniesť komplexné informácie na jednom mieste a v atraktívnej forme.
+  author1: Romana, Digital Marketing Manager
+  button1: More info
+  name2: Infrastructure
+  description2: Webstránka je miesto, kde sa najčastejšie stretávate s potenciálnymi zákazníkmi. Je to najdostupnejší a najekonomickejší marketingový nástroj. Zastrešíme ju ako celok. Od analýzy, cez grafický návrh a implementáciu, až po správu a dlhodobý rozvoj.
+  blockquote2: Obchodná prezentácia má predávať produkty a prezentovať služby, informačná má priniesť komplexné informácie na jednom mieste a v atraktívnej forme.
+  author2: Roman, Head of Operation
+  button2: More info
+projects:
+  headline: Selected projects
+  more: More projects
+  project1: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+  project2: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+  project3: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+  project4: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+full-image:
+  title: Long-term thinking
+  content: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+  more: Read our story
+
+studio:
+  title:  Studio
+  subtitle: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+
+referencies:
+  title:  Projects
+  subtitle: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+
+404:
+  head: 404 error
+  title: Page not found.
+  subtitle: Sorry, we couldn’t find the page you’re looking for.
+footer-newsletter:
+  headline: Sign up for our newsletter
+  content: The latest news, articles, and resources, sent to your inbox weekly.
+  button: Sign up
+footer-banner:
+  headline: Get early access
+  content: Did you sign up to the newsletter? If so, use the keyword we sent you to get access.
+  button: Go now
+footer:
+  copyright: 2021 RM Labs. All rights reserved.
+
+intro:
+  desc: Opinionated Vite Starter Template
+  dynamic-route: Demo of dynamic route
+  hi: Hi, {name}!
+  aka: Also known as
+  whats-your-name: What's your name?
+
+button:
+  go: GO
