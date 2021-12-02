@@ -15,9 +15,7 @@ export type RootState = {
 
 export type Store = UserStore<Pick<RootState, 'user'>>;
 
-const debug = true
-// todo: solve later: process not finding here
-// const debug = process.env.NODE_ENV !== 'production'
+const debug = process.env.NODE_ENV !== 'production'
 
 export const store = createStore({
     modules: {
