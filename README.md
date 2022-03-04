@@ -17,7 +17,7 @@ A Vue3 starter project setup with these following components,
 -   `~/` alias for `/src`. So we don't have to write something like `../../../SomeModule` to import modules.
 -   and some custom setups.
 
-[Check out Typescript version here](https://github.com/shamscorner/vue-3-stackter/tree/vue-3-with-typescript)
+[Check out Typescript version here](https://github.com/shamscorner/vitesse-stackter-clean-architect)
 
 ### Run this project:
 
