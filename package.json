@@ -6,23 +6,23 @@
         "serve": "vite preview"
     },
     "dependencies": {
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-vue": "^7.13.0",
-        "prettier": "^2.3.2",
-        "vue": "^3.0.5",
-        "vue-meta": "^3.0.0-alpha.8",
-        "vue-router": "4",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-vue": "^8.7.1",
+        "prettier": "^2.6.2",
+        "vue": "^3.2.33",
+        "vue-meta": "3.0.0-alpha.10",
+        "vue-router": "4.0.15",
         "vuex": "^4.0.2"
     },
     "devDependencies": {
-        "@vitejs/plugin-vue": "^1.2.4",
-        "@vue/compiler-sfc": "^3.0.5",
-        "autoprefixer": "^10.3.0",
-        "postcss": "^8.3.5",
-        "tailwindcss": "^2.2.4",
-        "vite": "^2.4.0",
-        "vite-plugin-components": "^0.13.2",
-        "vite-plugin-pages": "^0.17.5",
-        "vite-plugin-vue-layouts": "^0.3.1"
+        "@vitejs/plugin-vue": "^2.3.2",
+        "@vue/compiler-sfc": "^3.2.33",
+        "autoprefixer": "^10.4.7",
+        "postcss": "^8.4.13",
+        "tailwindcss": "^3.0.24",
+        "vite": "^2.9.8",
+        "vite-plugin-components": "^0.13.3",
+        "vite-plugin-pages": "^0.23.0",
+        "vite-plugin-vue-layouts": "^0.6.0"
     }
 }
