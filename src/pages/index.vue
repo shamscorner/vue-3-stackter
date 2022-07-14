@@ -1,5 +1,5 @@
 <template>
-    <h1 class="text-2xl font-bold">Welcome to Vue3Stackter, {{ name }}</h1>
+    <h1 class="text-2xl font-bold">Welcome to Vue-3-Stackter, {{ usersStore.name }}</h1>
 
     <div class="mt-8">
         <input
@@ -18,9 +18,9 @@
 
 <script setup>
 import { useMeta } from 'vue-meta'
-import { computed, ref } from 'vue'
+import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { useStore } from 'vuex'
+import { useUsersStore } from '~/stores/useUsersStore'
 
 useMeta({
     title: 'Homepage',
@@ -28,18 +28,17 @@ useMeta({
 
 const router = useRouter()
 
-const store = useStore()
+const usersStore = useUsersStore()
 
-// name
-// const name = computed(() => store.state.user.name)
-const name = computed(() => store.getters['user/nameUppercased'])
 const newName = ref('')
+
 function saveName() {
     if (newName.value === '') {
         return
     }
-    store.dispatch('user/saveName', newName.value)
+
+    usersStore.saveName(newName.value)
+    router.push(`/about/${newName.value}`)
     newName.value = ''
-    router.push(`/about/${name.value}`)
 }
 </script>

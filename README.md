@@ -7,7 +7,7 @@ A Vue3 starter project setup with these following components,
 -   Vite
 -   vue-meta-3.0.0-alpha.8
 -   Router
--   Vuex
+-   Pinia (Vue 3 default)
 -   Eslint
 -   Prettier
 -   Tailwind CSS

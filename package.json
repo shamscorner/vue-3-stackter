@@ -9,11 +9,11 @@
     "dependencies": {
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-vue": "^9.2.0",
+        "pinia": "^2.0.16",
         "prettier": "^2.7.1",
         "vue": "^3.2.37",
         "vue-meta": "3.0.0-alpha.10",
-        "vue-router": "4.1.2",
-        "vuex": "^4.0.2"
+        "vue-router": "4.1.2"
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^3.0.0",

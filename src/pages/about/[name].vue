@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="text-2xl font-bold">About {{ name }}</h1>
+        <h1 class="text-2xl font-bold">About {{ usersStore.name }}</h1>
 
         <p class="my-8">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
@@ -16,15 +16,11 @@
 
 <script setup>
 import { useMeta } from 'vue-meta'
-import { computed } from 'vue'
-import { useStore } from 'vuex'
+import { useUsersStore } from '~/stores/useUsersStore'
 
 useMeta({
     title: 'About Page',
 })
 
-const store = useStore()
-
-// name
-const name = computed(() => store.state.user.name)
+const usersStore = useUsersStore()
 </script>
