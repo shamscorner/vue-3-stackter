@@ -20,8 +20,8 @@
         "autoprefixer": "^10.4.7",
         "postcss": "^8.4.14",
         "tailwindcss": "^3.1.6",
+        "unplugin-vue-components": "^0.21.1",
         "vite": "^3.0.0",
-        "vite-plugin-components": "^0.13.3",
         "vite-plugin-pages": "^0.25.0",
         "vite-plugin-vue-layouts": "^0.6.0"
     }

@@ -13,7 +13,7 @@ A Vue3 starter project setup with these following components,
 -   Tailwind CSS
 -   File based routing with [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages). (Like [Nuxt file system routing](https://nuxtjs.org/docs/2.x/features/file-system-routing))
 -   Layout system with [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts). (Like [Nuxt layouts](https://nuxtjs.org/docs/2.x/directory-structure/layouts))
--   Components auto importing with [vite-plugin-components](https://github.com/antfu/vite-plugin-components)
+- Components auto importing with [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components)
 -   `~/` alias for `/src`. So we don't have to write something like `../../../SomeModule` to import modules.
 -   and some custom setups.
 
