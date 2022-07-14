@@ -4,13 +4,13 @@
 
 A Vue3 starter project setup with these following components,
 
--   Vite
+-   [Vite](https://vitejs.dev/)
 -   vue-meta-3.0.0-alpha.8
 -   Router
--   Pinia (Vue 3 default)
+-   [Pinia](https://pinia.vuejs.org/) (Vue 3 default)
 -   Eslint
 -   Prettier
--   Tailwind CSS
+-   [Tailwind CSS](https://tailwindcss.com/)
 -   File based routing with [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages). (Like [Nuxt file system routing](https://nuxtjs.org/docs/2.x/features/file-system-routing))
 -   Layout system with [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts). (Like [Nuxt layouts](https://nuxtjs.org/docs/2.x/directory-structure/layouts))
 - Components auto importing with [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components)
