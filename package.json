@@ -1,5 +1,5 @@
 {
-    "version": "0.0.0",
+    "version": "3.0.1",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
@@ -7,22 +7,22 @@
     },
     "dependencies": {
         "eslint-config-prettier": "^8.5.0",
-        "eslint-plugin-vue": "^8.7.1",
-        "prettier": "^2.6.2",
-        "vue": "^3.2.33",
+        "eslint-plugin-vue": "^9.2.0",
+        "prettier": "^2.7.1",
+        "vue": "^3.2.37",
         "vue-meta": "3.0.0-alpha.10",
-        "vue-router": "4.0.15",
+        "vue-router": "4.1.2",
         "vuex": "^4.0.2"
     },
     "devDependencies": {
-        "@vitejs/plugin-vue": "^2.3.2",
-        "@vue/compiler-sfc": "^3.2.33",
+        "@vitejs/plugin-vue": "^3.0.0",
+        "@vue/compiler-sfc": "^3.2.37",
         "autoprefixer": "^10.4.7",
-        "postcss": "^8.4.13",
-        "tailwindcss": "^3.0.24",
-        "vite": "^2.9.8",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.6",
+        "vite": "^3.0.0",
         "vite-plugin-components": "^0.13.3",
-        "vite-plugin-pages": "^0.23.0",
+        "vite-plugin-pages": "^0.25.0",
         "vite-plugin-vue-layouts": "^0.6.0"
     }
 }
