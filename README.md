@@ -60,6 +60,6 @@ useMeta({
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar]https://marketplace.visualstudio.com/items?itemName=Vue.volar. Make sure to:
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar). Make sure to:
 - Disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) for the current workspace
 - Disable built in `TypeScript and JavaScript Language Features` for the current workspace to enable take-over mode.
