@@ -19,6 +19,8 @@ A Vue3 starter project setup with these following components,
 
 [Check out Typescript version here](https://github.com/shamscorner/vitesse-stackter-clean-architect)
 
+[Check out Nuxt 3 starter template](https://github.com/shamscorner/nuxt-3-stackter)
+
 ### Run this project:
 
 ```
